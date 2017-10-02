@@ -21,7 +21,7 @@ Finally, make sure you’re sampling from each of your fuel sumps. Just because 
 
 ## GATS Jar
 
-The main benefit of the GATS Jar fuel tester is the ability to recycle the fuel. When you’re done collecting and inspecting your fuel sample, open up your gas cap and pour the fuel back into the tank. A screen on the GATS Jar ensures that particulates get filtered out—although if there’s lots of sediment in your fuel, you probably shouldn’t be putting it back in your tank, let alone flying. A reversible sump actuator gives the GATS Jar the versatility to work with either pin or petcock sump actuators.
+The main benefit of the [GATS Jar](http://amzn.to/2wI3CQ9) fuel tester is the ability to recycle the fuel. When you’re done collecting and inspecting your fuel sample, open up your gas cap and pour the fuel back into the tank. A screen on the GATS Jar ensures that particulates get filtered out—although if there’s lots of sediment in your fuel, you probably shouldn’t be putting it back in your tank, let alone flying. A reversible sump actuator gives the GATS Jar the versatility to work with either pin or petcock sump actuators.
 
 ## MultiSump Fuel Tester
 
