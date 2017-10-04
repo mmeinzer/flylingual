@@ -13,14 +13,14 @@ class BlogIndex extends React.Component {
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         {posts.map(post => {
-          if (post.node.frontmatter.path !== '/404/') {
-            const title = get(post, 'node.frontmatter.title') || post.node.frontmatter.path
-            const dateTime = moment(post.node.frontmatter.date)
-
+          const {path, date, title: postTitle} = post.node.frontmatter
+          if (path !== '/404/') {
+            const title = postTitle || path
+            const dateTime = moment(date)
             return (
-              <section key={post.node.frontmatter.path}>
+              <section key={path}>
                 <h2>
-                  <Link to={post.node.frontmatter.path} >
+                  <Link to={path} >
                     {title}
                   </Link>
                 </h2>
