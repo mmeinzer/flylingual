@@ -7,19 +7,23 @@ const Template = (props) => {
   let header  
   if (location.pathname === '/') {
     header = (
-      <h1>
-        <Link to={'/'}>
-          {siteName}
-        </Link>
-      </h1>
+      <header>
+        <h1>
+          <Link to={'/'}>
+            {siteName}
+          </Link>
+        </h1>
+        <nav>
+        </nav>
+      </header>
     )
   } else {
     header = (
-      <div>
+      <header>
         <Link to={'/'}>
           {siteName}
         </Link>
-      </div>
+      </header>
     )
   }
   return (

@@ -1,20 +1,23 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+import moment from 'moment'
 
 const BlogPostTemplate = (props) => {
   const post = props.data.markdownRemark
   const siteTitle = props.data.site.siteMetadata.title
+  const postTitle = post.frontmatter.title
+  const dateTime = moment(post.frontmatter.date)
 
   return (
-    <div>
-      <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-      <h1>{post.frontmatter.title}</h1>
+    <article>
+      <Helmet title={`${postTitle} | ${siteTitle}`} />
+      <h1>{postTitle}</h1>
       <p>
-        {post.frontmatter.date}
+        <time dateTime={dateTime.format()}>{dateTime.format('MMM Do, YYYY')}</time>
       </p>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
-    </div>
+    </article>
   )
 }
 
@@ -33,7 +36,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
       }
     }
   }

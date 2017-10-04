@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import moment from 'moment'
 
 class BlogIndex extends React.Component {
   render() {
@@ -13,17 +14,19 @@ class BlogIndex extends React.Component {
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         {posts.map(post => {
           if (post.node.frontmatter.path !== '/404/') {
-            const title = get(post, 'node.frontmatter.title') || post.node.path
+            const title = get(post, 'node.frontmatter.title') || post.node.frontmatter.path
+            const dateTime = moment(post.node.frontmatter.date)
+
             return (
-              <div key={post.node.frontmatter.path}>
+              <section key={post.node.frontmatter.path}>
                 <h2>
                   <Link to={post.node.frontmatter.path} >
                     {title}
                   </Link>
                 </h2>
-                <small>{post.node.frontmatter.date}</small>
+                <p><time dateTime={dateTime.format()}>{dateTime.format('MMM Do, YYYY')}</time></p>
                 <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-              </div>
+              </section>
             )
           }
         })}
@@ -51,7 +54,7 @@ export const pageQuery = graphql`
           excerpt
           frontmatter {
             path
-            date(formatString: "DD MMMM, YYYY")
+            date
           }
           frontmatter {
             title
