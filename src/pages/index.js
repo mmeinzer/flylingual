@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import moment from 'moment'
+import styles from './index.module.css'
 
 class BlogIndex extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class BlogIndex extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges
 
     return (
-      <div>
+      <div className={styles.posts}>
         <Helmet title={siteTitle} />
         {posts.map(post => {
           const {path, date, title: postTitle} = post.node.frontmatter

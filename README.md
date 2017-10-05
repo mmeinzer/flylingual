@@ -1,4 +1,2 @@
-# The FlyLingual site - Aviation and stuff
+# The FlyLingual gasite - Aviation and stuff
 [FlyLingual](https://flylingual.com/) 
-
-## Get Blogging
