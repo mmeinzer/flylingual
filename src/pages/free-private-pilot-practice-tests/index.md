@@ -13,7 +13,7 @@ Since the FAA no longer publishes the entire bank of test questions (yes, they u
 
 ## King Schools Test Questions
 
-John and Martha at King Schools have been in the aviation education business since 1973. You’d be hard pressed to find a pilot in the US that hasn’t at least heard of them. Their website offers a bank of free test prep questions and the ability to choose how many questions you’d like to attempt as well as which categories you want to focus on.
+John and Martha at King Schools have been in the aviation education business since 1973. You’d be hard-pressed to find a pilot in the US that hasn’t at least heard of them. Their website offers a bank of free test prep questions and the ability to choose how many questions you’d like to attempt as well as which categories you want to focus on.
 
 ## Sporty’s Study Buddy Practice Test
 

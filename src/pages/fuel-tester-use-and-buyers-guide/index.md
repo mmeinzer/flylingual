@@ -17,7 +17,7 @@ So what do we look for when we’re testing avgas? First and foremost, the liqui
 
 In addition to liquid contamination, be sure to check for any solid sediments. Any debris could potentially plug up your fuel lines or foul the engine.
 
-Finally, make sure you’re sampling from each of your fuel sumps. Just because you didn’t observe any issues with fuel in the first two, doesn’t mean that the others are good. Water, in particular, is much denser that avgas and will always settle to the lowest point in your fuel tank.
+Finally, make sure you’re sampling from each of your fuel sumps. Just because you didn’t observe any issues with fuel in the first two, doesn’t mean that the others are good. Water, in particular, is much denser than avgas and will always settle to the lowest point in your fuel tank.
 
 ## GATS Jar
 

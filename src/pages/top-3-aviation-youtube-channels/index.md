@@ -11,7 +11,7 @@ So next time your flight lesson gets rained out, or you’re stuck on the ramp w
 
 ## FlightChops
 
-[FlightChops](https://www.youtube.com/user/FlightChops) has been producing content on YouTube since 2013. In that time, his channel has grown to over 100,000 subscribers. He’s an internet celebrity and posts regularly on the /r/flying subreddit. Steve ([/u/Schteevie](https://www.reddit.com/user/Schteevie)) flies anything and everything he can get in the left seat of, and the production value of his videos is unparalleled—he records with so many GoPros in cool places that you’re never left staring at the same view for long.
+[FlightChops](https://www.youtube.com/user/FlightChops) has been producing content on YouTube since 2013. In that time, his channel has grown to over 100,000 subscribers. He’s an internet celebrity and posts regularly on the /r/flying subreddit. Steve ([/u/Schteevie](https://www.reddit.com/user/Schteevie)) flies anything, and everything he can get in the left seat of, and the production value of his videos is unparalleled—he records with so many GoPros in cool places that you’re never left staring at the same view for long.
 
 What I love about Steve’s videos is the continuous drive he has to become a better pilot. His passion for aviation and the aviation community is contagious.
 
