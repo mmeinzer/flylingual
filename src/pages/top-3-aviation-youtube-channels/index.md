@@ -1,6 +1,6 @@
 ---
 title: "Top 3 Aviation Youtube Channels"
-date: "2015-05-05T22:12:03.284Z"
+date: "2017-08-15T22:12:03.284Z"
 path: "/top-3-aviation-youtube-channels/"
 ---
 ## The top aviation content on YouTube
