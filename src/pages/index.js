@@ -18,7 +18,7 @@ class BlogIndex extends React.Component {
             const title = postTitle || path
             const dateTime = moment(date)
             return (
-              <section key={path}>
+              <section key={path+date}>
                 <h2>
                   <Link to={path} >
                     {title}
